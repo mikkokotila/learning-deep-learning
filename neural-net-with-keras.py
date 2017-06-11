@@ -24,6 +24,7 @@ model.add(Dense(1, activation='sigmoid'))
 # SECTION 4 - Compile model
 # learn about keras losses at https://keras.io/losses/
 # learn about keras optimizers at https://keras.io/optimizers/
+# learn about keras metrics at https://keras.io/metrics/
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # SECTION 5 - Fit the model
