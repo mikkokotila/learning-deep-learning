@@ -1,3 +1,6 @@
+## learn more about keras at http://keras.io/ 
+## learn more about numpy at http://www.numpy.org/
+
 # Create your first MLP in Keras
 from keras.models import Sequential
 from keras.layers import Dense
