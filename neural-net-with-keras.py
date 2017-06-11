@@ -16,7 +16,6 @@ Y = dataset[:,8]
 # SECTION 3 - Create model
 # learn about keras layers at https://keras.io/layers/about-keras-layers/
 # learn about keras models at https://keras.io/models/about-keras-models/
-
 model = Sequential()
 model.add(Dense(12, input_dim=8, activation='relu'))
 model.add(Dense(8, activation='relu'))
@@ -32,4 +31,6 @@ model.fit(X, Y, epochs=150, batch_size=10)
 
 # SECTION 6 - Evaluate the model
 scores = model.evaluate(X, Y)
+
+# SECTION 7 - Display the result
 print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
