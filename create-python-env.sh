@@ -6,7 +6,7 @@
 #!/bin/bash
 
 # install the required packages
-sudo apt-get python-pip -y
+sudo apt-get install python-pip
 sudo pip install virtualenv
 
 # check version 
@@ -17,7 +17,7 @@ mkdir example_env
 virtualenv -p /usr/bin/python2.7 example_env/
 
 # start the environment
-source autonomio_dev/bin/activate
+source example_dev/bin/activate
 
 # install the required python packages
 pip install keras 
