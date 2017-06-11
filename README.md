@@ -6,6 +6,10 @@ First and foremost, how to get your head around the idea of machine intelligence
 
 http://www.goodreads.com/book/show/6665847-daemon
 
+Jason's machine learning blog is amazing, but not strictly focused on just deep learning: 
+
+http://machinelearningmastery.com/blog/
+
 And a couple of different courses you can take:
 
 https://www.udacity.com/course/deep-learning--ud730
