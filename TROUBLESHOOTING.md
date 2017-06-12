@@ -53,3 +53,14 @@ For example if you get an issue with Jupyter Notebook, you would follow the sequ
 
 Almost all this type of problems are human error i.e. it is you that is making the mistake. Or the instructions you have for doing something are not working, which means that you have find new instructions and treat the case as in 2.1. 
 
+### 3. What to do when everything else fails 
+
+Before following this step, make sure you've tried "everything else". 
+
+Most of the popular open source software have their own 'gitter' channel: 
+
+https://gitter.im
+
+You can login easily with your Github account, and then find the relevant chat channel and ask for help. People tend to be very helpful in the open source community. 
+
+Also you might consider [creating a github issue](https://help.github.com/articles/creating-an-issue/) on the relevant Github page for the software you are having problems with. 
