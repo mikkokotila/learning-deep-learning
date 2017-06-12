@@ -24,19 +24,21 @@ Most typical troubleshooting relates with "how to do x with y" for example "how 
 
 For example if you get an issue with Jupyter Notebook, you would follow the sequence as below. Typically you will find that the first or second might work, so you don't have to go further and do the more involving things.  
 
-1) Restart the kernel 
+1) Did you do your imports already
 
-2) Close the notebook (from the file menu) and start it again
+2) Restart the kernel 
 
-3) Shutdown Jupyter entirely from the open shell (ctrl+c and then 'y')
+3) Close the notebook (from the file menu) and start it again
 
-4) Start a new shell and then start Jupyter there
+4) Shutdown Jupyter entirely from the open shell (ctrl+c and then 'y')
 
-5) Restart your machine 
+5) Start a new shell and then start Jupyter there
 
-6) Try creating a new notebook where you try to do the same thing
+6) Restart your machine 
 
-7) Try upgrading your the related packages (note below is a generic example)
+7) Try creating a new notebook where you try to do the same thing
+
+8) Try upgrading your the related packages (note below is a generic example)
 
 ##### Upgrade for pip package 
 
