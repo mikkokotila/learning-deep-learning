@@ -1,6 +1,10 @@
 # Learning Deep Learning 
 
-Assets for rapidly learning deep learning using Python and Keras. 
+### For Troubleshooting tips / protocol 
+
+see > https://github.com/mikkokotila/learning-deep-learning/blob/master/TROUBLESHOOTING.md
+
+### Assets for rapidly learning deep learning using Python and Keras. 
 
 Before anything else, watch this 3 minute video that shows through a 3D model how the deep learning process works: 
 
