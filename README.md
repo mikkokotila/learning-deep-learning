@@ -2,7 +2,7 @@
 
 ### For Troubleshooting tips / protocol 
 
-see > https://github.com/mikkokotila/learning-deep-learning/blob/master/TROUBLESHOOTING.md
+[see](https://github.com/mikkokotila/learning-deep-learning/blob/master/TROUBLESHOOTING.md)
 
 ### Assets for rapidly learning deep learning using Python and Keras. 
 
