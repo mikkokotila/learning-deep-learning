@@ -13,6 +13,13 @@ To be able to do that, you have to setup your Python environment with commands y
 
 ### Assignment 2 - Find ways to improve your model 
 
+#### what will your learn
+
+- how to improve your prediction 
+- become more aware of the relationship between accuracy and loss
+- get hands on with changing the structure of the neural net 
+- gain experience with different losses, activations and optimizers
+
 In this assignement, you will continue from where you have started previously i.e. using the model to predict the Pima Indians diabetes cases. Your challenge is to make the result better than what you got in the first assignement. 
 
 You can expriment with things like number of layers, adding different kinds of layers such as 'Dropout' layers, changing optimizer, activation, or loss, or any other thing you think that may make the model better. Don't change more than one thing at a time, as otherwise you might not know what is working and what is not.
