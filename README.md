@@ -41,3 +41,19 @@ http://autonom.io/
 For a couple of years now we've maintained a blog that try looking at these topics from a theoretical standpoint rather than practical (as everyone else seems to be doing): 
 
 http://autonom.io/blog/ 
+
+
+### Assignement 1 - Introduction to Deep Learning
+
+In your first assignment, you will deploy a neural network using a ready-made (and tested) example. 
+
+You can find it (here)[
+http://machinelearningmastery.com/tutorial-first-neural-network-python-keras/] 
+
+
+
+### Assignment 2 - Find ways to improve your model 
+
+In this assignement, you will continue from where you have started previously i.e. using the model to predict the Pima Indians diabetes cases. 
+
+
