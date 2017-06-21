@@ -47,10 +47,12 @@ http://autonom.io/blog/
 
 In your first assignment, you will deploy a neural network using a ready-made (and tested) example. 
 
-You can find it (here)[
-http://machinelearningmastery.com/tutorial-first-neural-network-python-keras/] 
+You can find it [here](
+http://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
 
+You can find a cleaned up version of the code (here)[https://github.com/mikkokotila/learning-deep-learning/blob/master/neural-net-with-keras.py] together with references to Keras manual also. After first running the model succesfully, you should use the manual as a reference to make sure you roughly understand what each line of code is doing. 
 
+To be able to do that, you have to setup your Python environment with commands you can find (here)[https://github.com/mikkokotila/learning-deep-learning/blob/master/create-python-env.sh]
 
 ### Assignment 2 - Find ways to improve your model 
 
