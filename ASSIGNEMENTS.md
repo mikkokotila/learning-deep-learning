@@ -28,6 +28,11 @@ It's a good idea to have the epoch number at where you start to get your current
 
 And remember, as you have already learn from studying the supporting materials, if your accuracy goes up but your loss goes up too, that's not good. So you want your accuracy to go higher, and loss go lower. Then you know you are improving the current model. Even if the accuracy stays the same or becomes slightly lower, if loss becomes much lower, that is good also. 
 
+#### tips and tricks
+
+- each step when the result change, try to think why did it change
+- reducing loss is sometimes better than improving accuracy (if your accuracy is ok, but loss is high)
+
 ### Assignment 3 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
