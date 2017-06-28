@@ -33,23 +33,44 @@ And remember, as you have already learn from studying the supporting materials, 
 - each step when the result change, try to think why did it change
 - reducing loss is sometimes better than improving accuracy (if your accuracy is ok, but loss is high)
 
-### Assignment 3 - Putting it all together with predictions output 
+### Assignment 3 - Putting it all together with predictions output and simple validation
 
 Now that we have an idea of how accurate our model is, let's get the actual precictions out and then use Pandas to compare it with the actual data we have to make sure that our model is doing what it appars to do (e.g. if our accuracy is 82%, then by right for every 100 samples in the original dataset, we should have 18 errors in our predictions). 
 
 Getting predictions from a Keras model is very simple: 
 
-1) The first step is
+The first step is to get the actual predictions: 
 
-    # calculate predictions
     predictions = model.predict(X)
+    
+As you can see, this we do simply by invoking 'predict' on our model. We want to store it in a variable for convinience later, and also so we can convert it to 1 and 0 in the next step:
 
-    # round predictions
     rounded = [round(x[0]) for x in predictions]
-    print(rounded)
+    
+Now after the model has run, we can call 'predictions' or 'rounded' and get the results. But also we can use this later for visualizing the results. 
 
-But this time you will not have a cleaned up commented version, as
+The the next step is to take what we have in 'rounded' and compare it with 'Y' which is the actual results we have from the original dataset. The best way to do this is by using Numpy. Below you have an example code that will do the job, but make sure that you understand what each step does and why it's there. 
 
-### Assignment 4 - Deep learning when you have text data 
+    import numpy as np 
+    
+    if len(Y) == len(rounded):
+        
+        accuracy = np.array(Y)==np.array(rounded)
+        errors = np.count_nonzero(accuracy)
+        print float(errors) / len(Y)
+       
+The number you get there, should be the actual acccuracy you are getting for your predictions :) 
+      
+EXTRA: If you have time, you can come up with another way to do the validation in Numpy as that will help you to learn a little bit more about Numpy. It is very powerful, and particularly useful when combined with something like Keras. 
+
+Have fun! 
+
+### Assignment 4 - A more serious way to train models
+
+### Assignment 5 - A more serious way to valitate results 
+
+### Assignement 6 - Contiributing code to Github
+
+### Assignment 7 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
