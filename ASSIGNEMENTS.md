@@ -33,6 +33,23 @@ And remember, as you have already learn from studying the supporting materials, 
 - each step when the result change, try to think why did it change
 - reducing loss is sometimes better than improving accuracy (if your accuracy is ok, but loss is high)
 
-### Assignment 3 - Deep learning when you have text data 
+### Assignment 3 - Putting it all together with predictions output 
+
+Now that we have an idea of how accurate our model is, let's get the actual precictions out and then use Pandas to compare it with the actual data we have to make sure that our model is doing what it appars to do (e.g. if our accuracy is 82%, then by right for every 100 samples in the original dataset, we should have 18 errors in our predictions). 
+
+Getting predictions from a Keras model is very simple: 
+
+1) The first step is
+
+    # calculate predictions
+    predictions = model.predict(X)
+
+    # round predictions
+    rounded = [round(x[0]) for x in predictions]
+    print(rounded)
+
+But this time you will not have a cleaned up commented version, as
+
+### Assignment 4 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
