@@ -65,12 +65,42 @@ EXTRA: If you have time, you can come up with another way to do the validation i
 
 Have fun! 
 
-### Assignment 4 - A more serious way to train models
+### Assignment 4 - A more serious way to train models and saving it for later use
 
-### Assignment 5 - A more serious way to valitate results 
+So far what you have been doing is learn about training a model. But when we train the model, there is a lot of bias for all kinds of reasons. 
 
-### Assignement 6 - Contiributing code to Github
+1) Randomize the sample you have 
+2) Split it in to two equally sized datasets (A and B)
+3) Do what you already know how to do with dataset (A)
 
-### Assignment 7 - Deep learning when you have text data 
+So far you had not implemented a validation split, so let's do that now: 
+
+    model.fit(X, Y, validation_split=0.33, epochs=50, batch_size=15)
+
+This will split your dataset (A) in to two different sets 'train' and 'test'. In this case 'train' will be 1/3 and then 2/3 will be reserved for testing the model. This will take place during each epoch. 
+
+This is the standard way of doing things, but we will go a step further now. 
+
+4) Now you will have to learn to save the model you've trained, so that it can be used later with different datasets (where the truth is no longer available). This is where things get applicable as opposed to just having something run on your own computer. After this you can take any data, train a model, validate the results, and then have that model applied on another system to make predictions from different data (where the variables are the same). 
+
+You can do this by adding the following at the end of your code:
+
+	model_json = model.to_json()
+	with open("saved_model.json", "w") as json_file:
+	    json_file.write(model_json)
+	model.save_weights("saved_model_weights.h5")
+	print("Model have been saved.")
+
+5) Check that once you've trained your model, that you have the two new files, one is .h5 and one is .json. 
+
+We'll continue in the next assignement. Keep the dataset 'B' ready, as we will use it to make predictions next. This is where the "training wheels" come on, now we're going to see how everything we've learn will work in an actual prediction challenge. 
+
+### Assignment 5 - Using a saved model to make predictions on data without ground truth.
+
+### Assignment 6 - Putting everything we've learn together in to one reusable solution.
+
+### Assignement 7 - Contiributing code to Github
+
+### Assignment 8 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
