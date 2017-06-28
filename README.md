@@ -13,4 +13,3 @@ Want to learn deep learning using vetted resources and a method that maximize th
 ### For Troubleshooting tips / protocol 
 
 [see here](https://github.com/mikkokotila/learning-deep-learning/blob/master/TROUBLESHOOTING.md)
-
