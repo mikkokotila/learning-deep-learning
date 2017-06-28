@@ -35,3 +35,9 @@ http://autonom.io/
 For a couple of years now we've maintained a blog that try looking at these topics from a theoretical standpoint rather than practical (as everyone else seems to be doing):
 
 http://autonom.io/blog/
+
+## Deep Learning in General 
+
+MIT Deep Learning Book (in pdf)
+
+https://github.com/HFTrader/DeepLearningBook/blob/master/DeepLearningBook.pdf
