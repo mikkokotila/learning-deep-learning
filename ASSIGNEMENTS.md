@@ -141,7 +141,36 @@ So now we have 8 outputs in total. Also make sure that you show them in some nic
 
 ### Assignment 7 - Using a saved model to make predictions on data without ground truth.
 
+Great job getting so far! This next one will be very quick and easy for you, but very important also. It is about commenting your code. There are two ways to comment code in python. One is the normal way: 
+
+    # your comment comes here 
+    
+And the other is the way you do with function specific comments: 
+
+    def my_function(data)
+    
+    '''
+    USAGE: my_function(mortality.csv)
+    NOTE:  the outcome variable should be the last column in the dataset
+    '''
+
+Comments play several important roles in your code and being a programmer: 
+
+- comments help you to come back to your code after being away for a while
+- comments help you to use your code even you don't see it (function as a module)
+- comments help others to start using and improve your code
+
+But don't over do it. In Python there is something referred to as "the python way". Part of that is to write code that is so simple, that it is more or less evident even though there would be a minimal amount of comments in the code itself. But it's better to always comment at the function level, at least to provide one use example and some possible "gatchas" about usage. 
+
+Now I will share with you one very cool thing about Python. Once you save your function in a file and save it with .py ending, you can import it just like you would import a package you have installed. This is very useful, as it means we can easily create our own packages. 
+
+Now go ahead and do that with your newly commented code, and make sure that you can import it and that it works ok.  
+
 ### Assignment 8 - Putting everything we've learn together in to one reusable solution.
+
+Without even knowing it, you're fast becoming a Python pro, and actually you thought you were just learning deep learning ;)
+
+[more details coming soon.]
 
 ### Assignement 9 - Contiributing code to Github
 
