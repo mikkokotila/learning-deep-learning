@@ -95,12 +95,35 @@ You can do this by adding the following at the end of your code:
 
 We'll continue in the next assignement. Keep the dataset 'B' ready, as we will use it to make predictions next. This is where the "training wheels" come on, now we're going to see how everything we've learn will work in an actual prediction challenge. 
 
-### Assignment 5 - Using a saved model to make predictions on data without ground truth.
+### Assignement 5 - Tying it all together
 
-### Assignment 6 - Putting everything we've learn together in to one reusable solution.
+What we've done so far: 
 
-### Assignement 7 - Contiributing code to Github
+- ingest a dataset 
+- train a model with the data
+- improve the model through an iterative process 
+- learn about the importance of 'test' 
+- validate our results using a custom numpy code 
+- save the model so we can use it for predictions later 
 
-### Assignment 8 - Deep learning when you have text data 
+Before moving on the next step, which is making predictions when we don't have the truth dataset, we need to do some housekeeping. Most importantly, we need take all our code and create a python function out of it so we can call it conviniently from a single line command.
+
+You can learn more about functions (just want you need to know for now) [here](http://www.pythonforbeginners.com/basics/python-functions)
+
+Once your function working, don't just stop there but add some conviniences. For example it will be very useful if we can change batch_size and epochs parameters directly from the command. 
+
+For that, you'll need a slightly more involving outline of the custom function feature in python. You can read it [here](https://www.tutorialspoint.com/python/python_functions.htm)
+
+Go ahead and add any parameters that you know you want to frequently change directly in to your custom function so that you can in most cases run your model from a single-line command.  
+
+### Assignement 6 - Dealing with outputs with functions
+
+### Assignment 7 - Using a saved model to make predictions on data without ground truth.
+
+### Assignment 8 - Putting everything we've learn together in to one reusable solution.
+
+### Assignement 9 - Contiributing code to Github
+
+### Assignment 10 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
