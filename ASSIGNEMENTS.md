@@ -139,7 +139,7 @@ To make it more useful though, let's add a few more that gives us an indication 
 
 So now we have 8 outputs in total. Also make sure that you show them in some nice way. The very simple way is to just use print()to do it. You can learn about outputs [here](https://docs.python.org/3/tutorial/inputoutput.html).
 
-### Assignment 7 - Using a saved model to make predictions on data without ground truth.
+### Assignment 7 - Commenting your code and making it in to a your own package
 
 Great job getting so far! This next one will be very quick and easy for you, but very important also. It is about commenting your code. There are two ways to comment code in python. One is the normal way: 
 
@@ -170,10 +170,19 @@ Go ahead and do that with your newly commented code, and make sure that you can 
 
 Without even knowing it, you're fast becoming a Python pro, and actually you thought you were just learning deep learning ;)
 
-[more details coming soon.]
+Now let's create another function, this time for making predictions using saved model. You will need to have a couple of things to be able to do that: 
 
-### Assignement 9 - Contiributing code to Github
+- a dataset which has the same features (X variables) as when you created the model
+- the saved model structure in a .json file 
+- the saved model weights in a .h5 file 
 
-### Assignment 10 - Deep learning when you have text data 
+Just to make sure that everything works right, what you can do is just separate the output variable (Y) from the diabetes dataset and use it to validate your predictions once you get it from your loaded model. 
+
+
+### Assignement 9 - Using a saved model to make predictions on data without ground truth.
+
+### Assignement 10 - Contiributing code to Github
+
+### Assignment 11 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
