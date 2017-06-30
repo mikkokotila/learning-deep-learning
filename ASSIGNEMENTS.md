@@ -164,7 +164,7 @@ But don't over do it. In Python there is something referred to as "the python wa
 
 Now I will share with you one very cool thing about Python. Once you save your function in a file and save it with .py ending, you can import it just like you would import a package you have installed. This is very useful, as it means we can easily create our own packages. 
 
-Now go ahead and do that with your newly commented code, and make sure that you can import it and that it works ok.  
+Go ahead and do that with your newly commented code, and make sure that you can import it and that it works ok.  
 
 ### Assignment 8 - Putting everything we've learn together in to one reusable solution.
 
