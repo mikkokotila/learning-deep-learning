@@ -28,11 +28,11 @@ I know this method words because it is based on how I learn myself. I dropped ou
 
 ### For Assets for rapidly learning deep learning using Python and Keras. 
 
-[start here](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSETS.md)
+[for some background](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSETS.md)
 
 ### For Assignements to take you from zero to hero
 
-[then get going here](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSIGNEMENTS.md)
+[then start with your first assignement here](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSIGNEMENTS.md)
 
 ### For Troubleshooting tips / protocol 
 
