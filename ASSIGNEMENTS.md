@@ -95,7 +95,7 @@ You can do this by adding the following at the end of your code:
 
 We'll continue in the next assignement. Keep the dataset 'B' ready, as we will use it to make predictions next. This is where the "training wheels" come on, now we're going to see how everything we've learn will work in an actual prediction challenge. 
 
-### Assignement 5 - Tying it all together
+### Assignement 5 - Tying it all together in to a custom function
 
 What we've done so far: 
 
