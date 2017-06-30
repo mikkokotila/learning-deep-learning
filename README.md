@@ -14,9 +14,11 @@ If you're looking to learn a lot about maths, history of machine learning, etc. 
 
 - I have 12 years of continuous R&D in machine intelligence
 - I was voted as the lecturer of the year in a [college I was teaching](http://www.pkky.fi/en/oppilaitokset/ammattiopisto/outokumpu)
+- I'm a [highly rated speaker](https://www.youtube.com/watch?v=RDhSGC6f7i0) in leading global events about data and technology
 - Highly respected people give [raving endorsements on me](https://www.linkedin.com/in/mikkokotila/)
 - I'm the Chair of the [I-COM Data Science Board](http://www.i-com.org/data-science-board/) 
 - I'm the core developer of [Autonomio](http://autonom.io/), the first deep learning platform for non-programmers
+- I have a completely [unique perspective](http://www.creative-sparq.com/science-technology?category=Science) regarding machine intelligence
 
 ## Why does my method work? 
 
