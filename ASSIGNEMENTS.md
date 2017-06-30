@@ -120,6 +120,25 @@ Creating a function of a code you've been working is a fundamental skill that yo
 
 ### Assignement 6 - Dealing with outputs with functions
 
+As the first part of this assignement, let's take the result evaluation we created already, as an output in addition to the standard outputs from keras, let's show the comparison of what keras gives with our validated result.
+
+Then in addition to that, we would want to know: 
+
+- train accuracy 
+- train loss
+- test accuracy 
+- test loss 
+
+So in total now we have 5 outputs we want to print. Also you can stop showing everything else (hint: there is a parameter 'verbose' where you can change the outputs in keras). 
+
+To make it more useful though, let's add a few more that gives us an indication of the 'stability' of our model. 
+
+- (train accuracy - train loss) 
+- (test accuracy - test loss) 
+- (test accuracy - test loss) / (train accuracy - train loss) 
+
+So now we have 8 outputs in total. Also make sure that you show them in some nice way. The very simple way is to just use print()to do it. You can learn about outputs [here](https://docs.python.org/3/tutorial/inputoutput.html).
+
 ### Assignment 7 - Using a saved model to make predictions on data without ground truth.
 
 ### Assignment 8 - Putting everything we've learn together in to one reusable solution.
