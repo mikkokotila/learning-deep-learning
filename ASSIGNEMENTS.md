@@ -166,7 +166,7 @@ Now I will share with you one very cool thing about Python. Once you save your f
 
 Go ahead and do that with your newly commented code, and make sure that you can import it and that it works ok.  
 
-### Assignment 8 - Putting everything we've learn together in to one reusable solution.
+### Assignment 8 - Using a saved model to make predictions on data without ground truth.
 
 Without even knowing it, you're fast becoming a Python pro, and actually you thought you were just learning deep learning ;)
 
@@ -180,10 +180,12 @@ Just to make sure that everything works right, what you can do is just separate 
 
 You can get the example code for doing it [here](https://github.com/mikkokotila/learning-deep-learning/blob/master/predict-with-saved-model.py).
 
-### Assignement 9 - Using a saved model to make predictions on data without ground truth.
+### Assignement 9 - Putting everything we've learn together in to one reusable solution.
 
-### Assignement 10 - Contiributing code to Github
+### Assignement 10 - Testing your solution with real data. 
 
-### Assignment 11 - Deep learning when you have text data 
+### Assignement 11 - Contiributing code to Github
+
+### Assignment 12 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
