@@ -24,6 +24,8 @@ If you're looking to learn a lot about maths, history of machine learning, etc. 
 
 I know this method words because it is based on how I learn myself. I dropped out of school when I was 11, and I never wrote a single mathematical function. Everything I know, I've learned myself, so learning is something I know a thing or two about. For this training, I've taken out all the extra steps, repetitions and other headaches so you can in minimum time, get the maximum learning. Deep learning is super fun, so learning deep learning should be fun too :) 
 
+## How to get started? 
+
 ### For Assets for rapidly learning deep learning using Python and Keras. 
 
 [see here](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSETS.md)
