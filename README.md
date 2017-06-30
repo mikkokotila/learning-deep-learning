@@ -13,8 +13,10 @@ If you're looking to learn a lot about maths, history of machine learning, etc. 
 ## Why do you want to learn from me? 
 
 - I have 12 years of continuous R&D in machine intelligence
+- I was voted as the lecturer of the year in a [college I was teaching](http://www.pkky.fi/en/oppilaitokset/ammattiopisto/outokumpu)
 - Highly respected people give [raving endorsements on me](https://www.linkedin.com/in/mikkokotila/)
 - I'm the Chair of the [I-COM Data Science Board](http://www.i-com.org/data-science-board/) 
+- I'm the core developer of [Autonomio](http://autonom.io/), the first deep learning platform for non-programmers
 
 ## Why does my method work? 
 
