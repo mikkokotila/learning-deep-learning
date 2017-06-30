@@ -108,13 +108,15 @@ What we've done so far:
 
 Before moving on the next step, which is making predictions when we don't have the truth dataset, we need to do some housekeeping. Most importantly, we need take all our code and create a python function out of it so we can call it conviniently from a single line command.
 
-You can learn more about functions (just want you need to know for now) [here](http://www.pythonforbeginners.com/basics/python-functions)
+You can learn more about functions (just want you need to know for now) [here](http://www.pythonforbeginners.com/basics/python-functions).
 
 Once your function working, don't just stop there but add some conviniences. For example it will be very useful if we can change batch_size and epochs parameters directly from the command. 
 
-For that, you'll need a slightly more involving outline of the custom function feature in python. You can read it [here](https://www.tutorialspoint.com/python/python_functions.htm)
+For that, you'll need a slightly more involving outline of the custom function feature in python. You can read it [here](https://www.tutorialspoint.com/python/python_functions.htm).
 
-Go ahead and add any parameters that you know you want to frequently change directly in to your custom function so that you can in most cases run your model from a single-line command.  
+Go ahead and add any parameters that you know you want to frequently change directly in to your custom function so that you can in most cases run your model from a single-line command.
+
+Creating a function of a code you've been working is a fundamental skill that you will use virtually every time you are working with Python. Learn it well from the start, and you'll have much more fun later. 
 
 ### Assignement 6 - Dealing with outputs with functions
 
