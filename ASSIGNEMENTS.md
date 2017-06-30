@@ -178,6 +178,7 @@ Now let's create another function, this time for making predictions using saved 
 
 Just to make sure that everything works right, what you can do is just separate the output variable (Y) from the diabetes dataset and use it to validate your predictions once you get it from your loaded model. 
 
+You can get the example code for doing it [here](https://github.com/mikkokotila/learning-deep-learning/blob/master/predict-with-saved-model.py).
 
 ### Assignement 9 - Using a saved model to make predictions on data without ground truth.
 
