@@ -82,7 +82,7 @@ Few important pointers:
 - you should not have to edit your path EVER 
 - it's better to install nothing on global and all to the env you are using it
 
-Lear more about python environments [here](http://www.simononsoftware.com/virtualenv-tutorial-part-2/)
+Lear more about python environments [here](http://www.simononsoftware.com/virtualenv-tutorial-part-2/) and for a slightly more elaborate version [here](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/).
 
 ### 3. What to do when everything else fails 
 
