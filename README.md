@@ -1,6 +1,6 @@
 # Learning Deep Learning 
 
-Want to learn deep learning using vetted resources and a method that maximize the benefit you get out of your time? Look no further, you've come to right place. 
+Want to learn deep learning using vetted resources and a method that maximize the benefit you get out of your time? Look no further, you've come to right place. You'll be building your very own skynet in no time.
 
 [Yes, I'm ready to go, beam me up](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSIGNEMENTS.md)
 
