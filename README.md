@@ -2,6 +2,8 @@
 
 Want to learn deep learning using vetted resources and a method that maximize the benefit you get out of your time? Look no further, you've come to right place. 
 
+[Yes, I'm ready to go, beem me up scotty](https://github.com/mikkokotila/learning-deep-learning/blob/master/ASSIGNEMENTS.md)
+
 ## Who is it for? 
 
 For anyone who wants to learn deep learning fast. This includes those that have minimal programming knowledge / experience. If you can learn to play a more serious computer game, with the training I provide, you will learn how to deep learning. 
