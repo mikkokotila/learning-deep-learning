@@ -196,7 +196,7 @@ Because we are working with Python, as long as you name the file ending with .py
 
 Github is the most important tool for open source programmers, it is great that now you've learn the basics of that too! :) 
 
-### Assignement 9 - Testing your solution with a different dataset
+### Assignement 10 - Testing your solution with a different dataset
 
 Because of the fantastic progress you have made so far, and the code you have developed, your actually to take on some actual prediction challenges. To get to test your code and your ability to tweak models under different conditions, you'll have three different kinds of datasets to work on. 
 
@@ -204,11 +204,13 @@ Because of the fantastic progress you have made so far, and the code you have de
 
 DATAFILE: You can download it here [here](https://github.com/autonomio/datasets/blob/master/autonomio-datasets/parties_and_employment)
 
-This file is in .msgpack format, so you will need Pandas to open it. Once you have open it, you can use it as you would use any other file. If you want, you can export to csv from Pandas, then you can directly use with your current code. 
-
 FEATURES: monthly support for 10 or so political parties in Finland, and unemployment rate 
 
 OBJECTIVE: You have two in this case. One is first to show which party's popularity is most closely connected with unmemployment rate i.e. you have the highest accuracy in predicting it (once you find the right configuration for your model). The other is where you use the unemployment rate, and all the other party's popularity to predict the popularity of of one of the top parties. You can choose any you like, as long as it's one of the most popular ones. 
+
+This file is in .msgpack format, so you will need Pandas to open it. Once you have open it, you can use it as you would use any other file. If you want, you can export to csv from Pandas, then you can directly use with your current code. 
+
+Msgpack is a really great way to store datafiles, as it retains the format just like a csv file would do it, but because it's stored in binary format, it becomes very small. The other benefit is that it's really fast to compress data in to msgpack format, and even faster to read it. 
 
 Have fun! :) 
 
