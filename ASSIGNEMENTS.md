@@ -202,7 +202,7 @@ Because of the fantastic progress you have made so far, and the code you have de
 
 #### Challenge 1 - Unemployment Rates and Monthly Polls 
 
-DATAFILE: You can download it here [here](https://github.com/autonomio/datasets/blob/master/autonomio-datasets/parties_and_employment)
+DATAFILE: You can download it here [here](https://github.com/autonomio/datasets/raw/master/autonomio-datasets/parties_and_employment)
 
 FEATURES: monthly support for 10 or so political parties in Finland, and unemployment rate 
 
