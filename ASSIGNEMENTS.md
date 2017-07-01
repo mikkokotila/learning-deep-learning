@@ -214,7 +214,7 @@ Msgpack is a really great way to store datafiles, as it retains the format just 
 
 Have fun! :) 
 
-### Assignement 11 - Overcomcing common issues with data
+### Assignement 11 - Overcoming common issues with data
 
 Well well, as you had found I'm sure, there were some small wrinkles along the way. It is quite common that the data you get is not uniform / clean. The most common issues include: 
 
