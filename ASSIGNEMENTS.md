@@ -212,6 +212,13 @@ This file is in .msgpack format, so you will need Pandas to open it. Once you ha
 
 Msgpack is a really great way to store datafiles, as it retains the format just like a csv file would do it, but because it's stored in binary format, it becomes very small. The other benefit is that it's really fast to compress data in to msgpack format, and even faster to read it. 
 
+Some useful tips:
+
+- datasets often have formatting issues (e.g. wrong decimal / separators / etc)
+- if you're not clear with the columns, ask for more information 
+- before doing anything else, make sure you understand each column
+- before starting the actual work, drop columns you don't want or need
+
 Have fun! :) 
 
 ### Assignement 10 - Putting everything we've learn together in to one reusable solution.
