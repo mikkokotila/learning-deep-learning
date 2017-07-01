@@ -238,7 +238,9 @@ The other thing that you will often do is, is transform variables to some other 
 
 Another common situation is that you might have more than one outcome variable, so you have to handle them each separately in a different test. Maybe you even want to use all together different for each, you have the flexibility to do that so why not if it gives you better result in the end. 
 
-To help you get right back in to action applying what you already know, I've prepared a [code example](https://github.com/mikkokotila/learning-deep-learning/blob/master/simple-data-preparation-examples.py) which you can use to get back on track. 
+To help you get right back in to action applying what you already know, I've prepared a [code example](https://github.com/mikkokotila/learning-deep-learning/blob/master/simple-data-preparation-examples.py) which you can use to get back on track. As usual, make sure you understand everything the code does before moving on to using it. 
+
+Sometimes the best way to understand what code does and/or validate that it does what it should do, is to execute it line by line where you can always see the output. 
 
 Some useful tips:
 
