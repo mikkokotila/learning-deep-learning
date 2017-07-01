@@ -212,6 +212,34 @@ This file is in .msgpack format, so you will need Pandas to open it. Once you ha
 
 Msgpack is a really great way to store datafiles, as it retains the format just like a csv file would do it, but because it's stored in binary format, it becomes very small. The other benefit is that it's really fast to compress data in to msgpack format, and even faster to read it. 
 
+Have fun! :) 
+
+### Assignement 11 - Overcomcing common issues with data
+
+Well well, as you had found I'm sure, there were some small wrinkles along the way. It is quite common that the data you get is not uniform / clean. The most common issues include: 
+
+- wrong decimal (',' instead of '.')
+- data type issues (e.g. strings instead of numbers)
+- thousand separtors 
+- missing values 
+- other garbage mixed with values 
+- etc. etc. 
+
+First thing when you get a hold of a dataset, is to make sure that you've catched the most obvious issues in the data. The best way to do that is just to have a visual look of the data first. Genrally a Pandas dataframe is a good format for doing visual checks of data, and Pandas has a bunch of useful tools (as does Numpy) to check for issues such as the above mentioned ones in a programmatic manner. 
+
+The other thing that you will often do is, is transform variables to some other mode, for example you might have a ranged feature (from 0 to 100 for example) and you want to make it in to a binary variable of True or False instead (to say if the value increased or decreased for example). 
+
+#### Four kinds of variables / data:
+
+- boolean categorical (True or False)
+- multi categorical (more than two categories)
+- ranged (e.g. 0-100)
+- continuous (to infinity)
+
+Another common situation is that you might have more than one outcome variable, so you have to handle them each separately in a different test. Maybe you even want to use all together different for each, you have the flexibility to do that so why not if it gives you better result in the end. 
+
+To help you get right back in to action applying what you already know, I've prepared a [code example](https://github.com/mikkokotila/learning-deep-learning/blob/master/simple-data-preparation-examples.py) which you can use to get back on track. 
+
 Some useful tips:
 
 - datasets often have formatting issues (e.g. wrong decimal / separators / etc)
@@ -219,12 +247,8 @@ Some useful tips:
 - before doing anything else, make sure you understand each column
 - before starting the actual work, drop columns you don't want or need
 
-Have fun! :) 
+### Assignement 12 - Using Github for more than just sharing a file with some code
 
-### Assignement 10 - Putting everything we've learn together in to one reusable solution.
-
-### Assignement 11 - Using Github for more than just sharing a file with some code
-
-### Assignment 12 - Deep learning when you have text data 
+### Assignment 13 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
