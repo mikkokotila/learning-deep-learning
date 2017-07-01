@@ -180,11 +180,25 @@ Just to make sure that everything works right, what you can do is just separate 
 
 You can get the example code for doing it [here](https://github.com/mikkokotila/learning-deep-learning/blob/master/predict-with-saved-model.py).
 
-### Assignement 9 - Putting everything we've learn together in to one reusable solution.
+### Assignement 9 - Posting your code to Github 
 
-### Assignement 10 - Testing your solution with real data. 
+Github is by far the most reasonable and useful tool for sharing your code with others, and making sure that you have tested and stable version that you can access yourself easily anytime. 
 
-### Assignement 11 - Contiributing code to Github
+Read the basic instruction for creating your first repository [here](https://help.github.com/articles/create-a-repo/)
+
+Before you submit code to your repository, make sure that you provide at least the most basic information on the README.md, for example if there are some configurations that need to be done in some special cases. The minimum is to explain what the code does, and how to use it, and what is the expected output. 
+
+Github .md files, such as the README, have it's own syntax language, so take a moment to learn about it [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+
+Once your README.md file is done, you can then post your code in to files in the repository. The easiest is to just do it from from the Github.com interface. You can learn about creating new files [here](https://help.github.com/articles/creating-new-files/) and about editing those files [here](https://help.github.com/articles/editing-files-in-your-repository/).
+
+Because we are working with Python, as long as you name the file ending with .py, it will be automatically considered as python and the syntax specific highlighting is activated. The other point about naming files is that they should be named in a way that's roughly saying what they are doing, for example keras-train.py and keras-predict.py. 
+
+### Assignement 9 - Testing your solution with a different dataset
+
+### Assignement 10 - Putting everything we've learn together in to one reusable solution.
+
+### Assignement 11 - Using Github for more than just sharing a file with some code
 
 ### Assignment 12 - Deep learning when you have text data 
 
