@@ -194,6 +194,8 @@ Once your README.md file is done, you can then post your code in to files in the
 
 Because we are working with Python, as long as you name the file ending with .py, it will be automatically considered as python and the syntax specific highlighting is activated. The other point about naming files is that they should be named in a way that's roughly saying what they are doing, for example keras-train.py and keras-predict.py. 
 
+Github is the most important tool for open source programmers, it is great that now you've learn the basics of that too! :) 
+
 ### Assignement 9 - Testing your solution with a different dataset
 
 ### Assignement 10 - Putting everything we've learn together in to one reusable solution.
