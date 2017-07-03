@@ -198,7 +198,7 @@ Github is the most important tool for open source programmers, it is great that 
 
 ### Assignement 10 - Testing your solution with a different dataset
 
-Because of the fantastic progress you have made so far, and the code you have developed, your actually to take on some actual prediction challenges. To get to test your code and your ability to tweak models under different conditions, you'll have three different kinds of datasets to work on. 
+Because of the fantastic progress you have made so far, and the code you have developed, your actually to take on some actual prediction challenges. To get to test your code and your ability to tweak models under different conditions, you'll have three different kinds of datasets to work on. I will share the datasets accross the next assignements.
 
 #### Challenge 1 - Unemployment Rates and Monthly Polls 
 
@@ -249,8 +249,51 @@ Some useful tips:
 - before doing anything else, make sure you understand each column
 - before starting the actual work, drop columns you don't want or need
 
-### Assignement 12 - Using Github for more than just sharing a file with some code
+### Assignement 12 - What to do when a given model does not work 
 
-### Assignment 13 - Deep learning when you have text data 
+Sometimes you will find that there is no reasonable way to make a given approach (e.g. plain vanilla dense layer neural net) work on a specific problem. Usually this is due to one of few issues: 
+
+- you have a very small dataset 
+- you have very few dependent variables (features you use for predicting) 
+- your output layer is continuous (as opposed to categorical)
+
+In such cases, you need to look for a different type of model to work with. Going back to the challenge of predicting the popularity of political parties in Finland, as you had found out, unemployment rate as a single predictor using a simple neural net is not going to give a good result. Sometimes when you just can't get past 60% or so, you probably should try to do something else. 
+
+#### Good artist copy, great artists steal 
+
+This is something Pablo Picasso said, and programming is not too much different. The good thing though, is that we don't have to steal as we can just use open source codes to learn, and sometimes to do things also by minimally changing the code. I don't recommend doing that too much though, as you don't really learn how to program by just copy-pasting code. Much better is to follow a process something like: 
+
+1) Find a few examples
+2) See what they do without any changes
+3) See how you can plug in your own data 
+4) Compare the results you get with different approaches 
+5) Make sure you understand the code in each example 
+6) Try to figure out why one example performs better than other with your data 
+7) Also consider things like how fast they run etc. 
+8) Write your own code based on your understanding
+
+##### Types of models you'll commonly use 
+
+Basically there are just two types of predictions you need to make: 
+
+- classifying something i.e. saying that something belongs to a given category
+- predicting a future value i.e. saying that some value will change to something else 
+
+One of the key distinctions between the two is related with time. In the case of 'classifications' you can do it without time-series data (where each sample follows the previous over a period of time), but in some cases you can also use time as depedent variable to make your model better. With predicting a future value, you clearly need to have a time-series data, otherwise you can't do it.  
+
+You have now learn how to make classifications, and also learned how that approach is not suitable for all kinds of data for two reasons: 
+
+1) You might want to predict an actual value (e.g. popularity of a party) 
+2) The features (e.g. unemployment rate) you have might not be useful for what you are trying to do
+
+The very nice thing about the prediction (as opposed to classification) side of things, is that often all you need is the value itself to predict the value! Yes, that's right, often the strongest predictor for a given value is the predictor itself. Depending on the data and model, sometimes you can accurately predict one step ahead, sometimes you can predict many steps. A single step constitutes the sampling time interval, for example in the politcal poll data we have a timestep of one month i.e. each sample is a month, followed by the next month, and so forth. 
+
+In this assignement, using the data you already have, your job is to build a suitable model based on examples that will accurately predict a given party's popularity in the future. Let's see how many months ahead in time you can predict! 
+
+
+
+### Assignement 13 - Using Deep Learning for Regression Problems
+
+### Assignment 14 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
