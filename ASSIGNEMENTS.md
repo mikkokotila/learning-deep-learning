@@ -272,7 +272,7 @@ This is something Pablo Picasso said, and programming is not too much different.
 7) Also consider things like how fast they run etc. 
 8) Write your own code based on your understanding
 
-##### Types of models you'll commonly use 
+#### Types of models you'll commonly use 
 
 Basically there are just two types of predictions you need to make: 
 
