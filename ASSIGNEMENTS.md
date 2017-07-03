@@ -290,10 +290,20 @@ The very nice thing about the prediction (as opposed to classification) side of 
 
 In this assignement, using the data you already have, your job is to build a suitable model based on examples that will accurately predict a given party's popularity in the future. Let's see how many months ahead in time you can predict! 
 
+Instead of having to go through many example models, which often don't work and are messy code, I will provide you with something that I know will work, and also is already tested with the data you are working with. 
 
+Get the code example [here](https://github.com/botlabio/keras-deep-learning-models/tree/master/lstm_regression)
 
-### Assignement 13 - Using Deep Learning for Regression Problems
+It will also introduce you with the concept of LSTM. Make sure you understand what LSTM is, it's one of the hottest topics of discussion in the deep learning world and have wide-ranging applications. The mode is a regression model, which is one of the most common statistical methods, so it's good to learn a little bit about that as well.  
 
-### Assignment 14 - Deep learning when you have text data 
+Read a very nice overview of LSTM [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+Read a brief history of regression models [here](https://en.wikipedia.org/wiki/Regression_analysis#History). 
+
+### Assignement 13 - ?
+
+### Assignement 14 - ?
+
+### Assignment 15 - Deep learning when you have text data 
 
 In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
