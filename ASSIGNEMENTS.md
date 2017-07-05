@@ -300,7 +300,13 @@ Read a very nice overview of LSTM [here](http://colah.github.io/posts/2015-08-Un
 
 Read a brief history of regression models [here](https://en.wikipedia.org/wiki/Regression_analysis#History). 
 
-### Assignement 13 - ?
+### Assignement 13 - Time to have some fun with a Kaggle Challenge 
+
+Let's predict how genetic variants can alter cancer outcomes. 
+
+Get the full briefing [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data).
+
+Have fun! :)
 
 ### Assignement 14 - ?
 
