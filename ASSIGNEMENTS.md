@@ -302,14 +302,44 @@ Read a brief history of regression models [here](https://en.wikipedia.org/wiki/R
 
 ### Assignement 13 - Time to have some fun with a Kaggle Challenge 
 
-Let's predict how genetic variants can alter cancer outcomes. 
+Let's predict how genetic variants can alter cancer outcomes.
 
 Get the full briefing [here](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data).
 
+Or alternatively you could pick any other challenge you like, for example the Titanic survival prediction has been hugely popular for the past few years, with thousands of people taking part in it. 
+
+Once you have get to an acceptable result (you think), then go to the rankings page of the challenge you had chosen and see how your result ranks. Once you are satisfied with your result, then create a git repository for your codes, and write a simple readme that explains how to run the codes and what you are doing with it. 
+
+It might be a good idea to not just try dense layers, which is what you have been using mostly so far, but also to try some other aproach. 
+
 Have fun! :)
 
-### Assignement 14 - ?
+### Assignement 14 - Getting (slightly) more serious with open source 
 
-### Assignment 15 - Deep learning when you have text data 
+The key for being part of open source projects as a contributor, is to understand basics of Github workflow. There are three different ways to use Github as a developer: 
 
-In this assignement you will learn how to handle cases where you just have one feature which is unstructured data (text) and you want to make predictions based on that. More details soon...
+1) through the Github.com 
+2) through the Github Desktop app
+3) through command line using 'git' command 
+
+I've ordered the options from the most limiting and easy to use, to the most powerful and hardest to use. As you already know how to do the Github.com way to some extent, let's try out the Github Desktop app next. What you want to do is first practice with one of your own repos, where you create a clone of the repo on your local machine, make some chagnes to it, make a pull request, and commit. 
+
+First [download](https://desktop.github.com/) to get started. You'll need to have your login information ready. Once you've gone through the setup process, choose the option 'Clone an existing project from Github to your computer' and follow the instructions. The simpest way to do this is with the git address, for example: 
+
+https://github.com/autonomio/core-module.git
+
+Once you've done this, you will also see where the repository is located on your local machine. Now you can edit the files to make changes that you want to make. Go do it now. Better make some small change first, just to learn the process. 
+
+Once you've made the changes to the local files, you should see this reflect in the Github Desktop view as well. Add a description and details of what you're changing and hit 'Commit to Master'. 
+
+NOTE: This is not a great way to do things generally i.e. committing to master. Actually you should never do it like this, but it's the simplest way to do things if you are only working on some simple code that nobody else depend on. We'll talk about the more proper way in later assignements. 
+
+Once you've successfully committed your changes, now hit 'Push Origin' and the changes will be updated in the master branch. Don't worry, we'll talk about braches more later as well. For now, go to Github.com and you should see the changes there. 
+
+In some case, you'll see that your commit includes some garbage that does not belong to the repo. This has to do with hidden files or folders (where the name starts with '.'). The way to avoid these, is to use 'git ignore' functionality. The way to do it in the desptop is through:
+
+Repository -> Repository Settings -> Ignored Files
+
+In a case where the repo already has a hidden file or folder, what you have to do is make sure that hidden files and folders are visible on your Desktop, or easier is to delete it through terminal. By now you should know how to do this, and if not, you might have to google it ;)
+
+Once you have done this, you're ready to use the same technique to make a small contribution to an actual open source project managed by someone else! :)
