@@ -343,3 +343,19 @@ Repository -> Repository Settings -> Ignored Files
 In a case where the repo already has a hidden file or folder, what you have to do is make sure that hidden files and folders are visible on your Desktop, or easier is to delete it through terminal. By now you should know how to do this, and if not, you might have to google it ;)
 
 Once you have done this, you're ready to use the same technique to make a small contribution to an actual open source project managed by someone else! :)
+
+### Assignement 15 - Shell Fu
+
+Some say, that shell (linux programming) is pain. Actually, it is becoming increasingly rare that a person who is savvy with data, is also savvy with one of the variants of shell programming (e.g. bash). In part this is "thanks" to the wide popularity of python, and before that, R. Yet, those that have even intermediate skill in shell programming, will swear the opposite ... not knowing shell is pain. 
+
+Indeed, at times you will need to do some kind of data wrangling, some file manipulating, etc. etc. which is really not practical with python, and particularly not practical with C/C++. That's where shell comes in. There is also the case where you might want to get more involved with the system side of things (e.g. daemons...check it, it's very cool stuff), and unless you have at least a moderate comfort level with shell programming, you will not even try to do it. It would not be a bad idea to do a couple of projects using nothing but shell, it's pretty amazing actually. Once you feel comfortable with shell, you will be able to do so much more. 
+
+Because you already have some programming skills, it's better to first memorize commands, and then in the next assignment we'll work on something in the shell environment. 
+
+Start by creating an account in http://memrise.com - an amamzing tool for learning languages (those that non-programmers speak) and more recently for learning a lot of other things as well. Well, at least the memorization part of learning. 
+
+Once you have the account created, spend some time every day going through this (amazing course)[https://www.memrise.com/course/50252/shell-fu/]. 
+
+Have fun, I know we'll have some once we get down to doing a real project in the shell environment. It's hard to explain how amazing it is, it's just one of those things you have to experience for yourself. Being savvy with shell, is kind of a superpower for programmers / data scientists. 
+
+Think about it, Android runs on linux, Mac OSX and iOS both run on linux. Most of programming is done on Linux environments. Even the latest version of Windows runs linux. Where as Python is a very nice programming language to do interesting things with, linux (shell) is what the digital world runs on. 
