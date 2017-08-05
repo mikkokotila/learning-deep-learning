@@ -354,7 +354,7 @@ Because you already have some programming skills, it's better to first memorize 
 
 Start by creating an account in http://memrise.com - an amamzing tool for learning languages (those that non-programmers speak) and more recently for learning a lot of other things as well. Well, at least the memorization part of learning. 
 
-Once you have the account created, spend some time every day going through this (amazing course)[https://www.memrise.com/course/50252/shell-fu/]. 
+Once you have the account created, spend some time every day going through this [amazing course](https://www.memrise.com/course/50252/shell-fu/). 
 
 Have fun, I know we'll have some once we get down to doing a real project in the shell environment. It's hard to explain how amazing it is, it's just one of those things you have to experience for yourself. Being savvy with shell, is kind of a superpower for programmers / data scientists. 
 
