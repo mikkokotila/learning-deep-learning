@@ -4,6 +4,14 @@ Before anything else, watch this 3 minute video that shows through a 3D model ho
 
 https://www.youtube.com/watch?v=3JQ3hYko51Y
 
+If you want to get a little bit more into the nitty gritty, there is no better than 3blue1brown's intro: 
+
+Part 1) https://www.youtube.com/watch?v=aircAruvnKk
+
+Part 2) https://www.youtube.com/watch?v=IHZwWFHWa-w
+
+Part 3) https://www.youtube.com/watch?v=Ilg3gGewQ5U
+
 How to get your head around the idea of machine intelligence? By far the best way to do that is to read this wonderful piece of "what if" technology fiction. Really, do it.
 
 http://www.goodreads.com/book/show/6665847-daemon
